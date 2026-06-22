@@ -1,0 +1,25 @@
+{
+  "name": "vps-automation-core",
+  "version": "1.0.0",
+  "description": "Oracle VPS component with global Puppeteer instance, isolated contexts, queue manager, Llama 3.2 Vision loop, and stream downloader",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node server.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "puppeteer": "^22.12.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/form-data": "^2.5.0",
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
